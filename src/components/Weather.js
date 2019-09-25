@@ -22,7 +22,7 @@ const Weather = props => {
           </ul>
           <div className="images">
             <img
-              src={`http://openweathermap.org/img/wn/${city.weather[0].icon}@2x.png`}
+              src={`https://openweathermap.org/img/wn/${city.weather[0].icon}@2x.png`}
               alt="weather icon"
             />
           </div>
